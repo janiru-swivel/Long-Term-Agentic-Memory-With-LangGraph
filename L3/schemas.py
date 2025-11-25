@@ -16,5 +16,5 @@ class Router(BaseModel):
     )
 
 class State(TypedDict):
-    email_input: str
+    email_input: dict
     messages: Annotated[list, add_messages]
